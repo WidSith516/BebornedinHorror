@@ -23,7 +23,7 @@
 		},
 		{
 			"Name": "GameplayTagsComponent",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/202ef59ca875421da9e508725b94fb30"
 		},
 		{
