@@ -3,13 +3,17 @@
 	"EngineAssociation": "5.3",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "BebornedinHorror",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
+			"Enabled": true
 		},
 		{
 			"Name": "UAssetBrowser",
@@ -18,13 +22,30 @@
 		},
 		{
 			"Name": "GameplayTagsComponent",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/202ef59ca875421da9e508725b94fb30"
+			"Enabled": false
 		},
 		{
 			"Name": "NodeToCode",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/865c44cc-4ff6-4fc1-9c19-6fbc6ac430eb"
+		},
+		{
+			"Name": "VisualStudioTools",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			],
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/362651520df94e4fa65492dbcba44ae2"
+		},
+		{
+			"Name": "FileHelper",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/bec5be3d587f4ff49a61d45d0e81e4c0"
+		},
+		{
+			"Name": "PaperZD",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c4b43502026047d89296cd7bffd92828"
 		}
 	]
 }
